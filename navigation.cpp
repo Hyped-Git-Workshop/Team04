@@ -39,7 +39,7 @@ return this->velocity;
 
 double Navigation::get_position()
 {
-  /// TASK 8 (PERSON B) ////////////////////////////////////////////////////////
-  
-  /// END OF TASK 8B ///////////////////////////////////////////////////////////
+  double v = this->get_velocity();
+this->position += v*DT; //integrate
+return this->position;
 }
