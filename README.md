@@ -26,6 +26,19 @@
         }
         ```
     * When done, commit both files in a single commit (ofc don't forget push and stuff as always)
+4. Person B - `pod.h` and `pod.cpp` - Pressure inside the pressure vessel
+    * Open `pod.h`, locate place for TASKS 3&4 and copy-paste the following line below the one from previous task
+        ```c++
+        double get_pressure();
+        ```
+    * Open `pod.cpp`, locate place for TASKS 3&4, copy the following code and paste it below the function from previous task (you can change the 0 there if you want a more comfortable pressure)
+        ```c++
+        double Pod::get_pressure()
+        {
+          return 0;
+        }
+        ```
+    * When done, commit both files in a single commit (ofc don't forget push and stuff as always)
 
 
 
@@ -35,5 +48,6 @@
 | 1 | Name your pod - edit `pod.cpp`                                       |                                                              |
 | 2 |                                                                      |  Max speed - edit `pod.cpp`                                  |
 | 3 | Pressure vessel temperature - edit `pod.h` and `pod.cpp`             |                                                              |
+| 4 |                                                                      | Pressure vessel pressure - edit `pod.h` and `pod.cpp`        |
 
 
