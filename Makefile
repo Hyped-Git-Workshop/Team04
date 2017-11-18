@@ -22,10 +22,9 @@ navigation.o : navigation.cpp navigation.h accelerometer.h
 accelerometer.o : accelerometer.cpp accelerometer.h
 	$(CC) $(CFLAGS) accelerometer.cpp
 
-### TASK 6 (PERSON B) #########################################################
-#bms.o : bms.cpp bms.h
-#	$(CC) $(CFLAGS) bms.cpp
-### END OF TASK 6 (PERSON B) ##################################################
+bms.o : bms.cpp bms.h
+	$(CC) $(CFLAGS) bms.cpp
+
 
 clean :
 	rm *.o main 
