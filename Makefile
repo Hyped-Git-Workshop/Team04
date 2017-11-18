@@ -10,7 +10,7 @@ OBJS = accelerometer.o pod.o
  
  main.o : main.cpp pod.h accelerometer.h
  	$(CC) $(CFLAGS) main.cpp
- +### END OF TASK 5 (PERSON A) ##################################################
+ ### END OF TASK 5 (PERSON A) ##################################################
  
  pod.o : pod.cpp pod.h accelerometer.h
  	$(CC) $(CFLAGS) pod.cpp
